@@ -1,0 +1,43 @@
+.services-container {
+  display: flex;
+  justify-content: center;
+}
+.services-container div .services-top-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 50vw;
+}
+.services-container .carousel-container {
+  margin-bottom: 100px;
+  background: #1a5f55;
+  border-radius: 1%;
+  width: 80vw;
+  max-width: 1200px;
+  overflow: hidden;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.services-container .carousel-container img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 40vw;
+  max-width: 600px;
+  background: #000;
+  color: white;
+  display: flex;
+  justify-content: end;
+}
+.services-container .carousel-inner {
+  width: 100%;
+}
+.services-container .carousel-container-content {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 50% 50%;
+}
+.services-container .carousel-container-content div {
+  display: flex;
+  justify-content: center;
+  color: white;
+}/*# sourceMappingURL=Services.css.map */
